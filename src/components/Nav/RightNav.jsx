@@ -7,6 +7,12 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
   li {
     padding: 18px 20px;
+    cursor:pointer;
+  }
+  li:hover{
+    background-color: #3ADAC6;
+    color:black;
+    
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
